@@ -18,17 +18,17 @@ It is important to note that mistakes, biases, systematic errors, and other unex
 
 This repository contains the following files:
 
-README.md: provides an overview of the project
+**README.md**: provides an overview of the project
 
-basics_ggplot: R script containing code for data visualisation and analysis using the ggplot2 package.
+**basics_ggplot**: R script containing code for data visualisation and analysis using the ggplot2 package.
 
-gapminder_dataset: R script containing code for data visualisation and analysis using the gapminder package to apply the ggplot2 techniques, understanding how fixed scales across plots can ease comparisons and to be able to modify graphs to improve data visualization.
+**gapminder_dataset**: R script containing code for data visualisation and analysis using the gapminder package to apply the ggplot2 techniques, understanding how fixed scales across plots can ease comparisons and to be able to modify graphs to improve data visualization.
 
-principles_of_visualisation.R: R script containing code for data visualisation and analysis to understand basic principles of effective data visualization. Understand the importance of keeping your goal in mind when deciding on a visualization approach. Understand principles for encoding data, including position, aligned lengths, angles, area, brightness, and color hue. Know when to include the number zero in visualizations and be able to use techniques to ease comparisons, such as using common axes, putting visual cues to be compared adjacent to one another, and using color effectively
+**principles_of_visualisation.R**: R script containing code for data visualisation and analysis to understand basic principles of effective data visualization. Understand the importance of keeping your goal in mind when deciding on a visualization approach. Understand principles for encoding data, including position, aligned lengths, angles, area, brightness, and color hue. Know when to include the number zero in visualizations and be able to use techniques to ease comparisons, such as using common axes, putting visual cues to be compared adjacent to one another, and using color effectively
 
-Distributions.R: using distributions to summarize data, the average and the standard deviation to understand the normal distribution, assess how well a normal distribution fits the data using a quantile-quantile plot and interpreting data from a boxplot.
+**Distributions.R**: Using distributions to summarize data, the average and the standard deviation to understand the normal distribution, assess how well a normal distribution fits the data using a quantile-quantile plot and interpreting data from a boxplot.
 
-vaccine_case_study.R: visualise data about measles incidence in order to demonstrate the impact of vaccination programs on disease rate using the dslabs library and 'us_contagious_diseases' data.
+**vaccine_case_study.R**: Visualise data about measles incidence in order to demonstrate the impact of vaccination programs on disease rate using the dslabs library and 'us_contagious_diseases' data.
 
 ## Conclusion
 
