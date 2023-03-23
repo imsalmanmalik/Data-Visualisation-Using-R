@@ -6,11 +6,11 @@ This repository contains a data visualisation project on R that explores ggplot2
 
 With the growing availability of informative datasets and software tools, data visualisation has become increasingly important across many industries, academia, and government. Data visualisation provides a powerful way to communicate data-driven findings, motivate analyses, or detect flaws.
 
-the basics of data visualisation and exploratory data analysis were learned, and this project serves as an example of the application of these skills.
+The basics of data visualisation and exploratory data analysis were learned, and this project serves as an example of the application of these skills.
 
 ## Data and Tools
 
-The project explores two case studies related to world health and economics and another in infectious disease trends in the United States. The ggplot2 package was used for data visualisation and exploratory data analysis.
+The project explores the case study related to the infectious disease trends in the United States. The ggplot2 package was used for data visualisation and exploratory data analysis. 
 
 It is important to note that mistakes, biases, systematic errors, and other unexpected problems often lead to data that should be handled with care. The fact that it can be difficult or impossible to notice an error just from the reported results makes data visualisation particularly important.
 
