@@ -1,73 +1,35 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
-</p>
+# Data Visualisation Project on R
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+This repository contains a data visualisation project on R that explores three motivating examples using ggplot2, a popular data visualisation package for the statistical programming language R.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## Motivation
 
-## Description
+With the growing availability of informative datasets and software tools, data visualisation has become increasingly important across many industries, academia, and government. Data visualisation provides a powerful way to communicate data-driven findings, motivate analyses, or detect flaws.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+During this certification, the basics of data visualisation and exploratory data analysis were learned, and this project serves as an example of the application of these skills.
 
-## Installation
+## Data and Tools
 
-```bash
-$ npm install
-```
+The project explores two case studies related to world health and economics and another in infectious disease trends in the United States. The ggplot2 package was used for data visualisation and exploratory data analysis.
 
-## Running the app
+It is important to note that mistakes, biases, systematic errors, and other unexpected problems often lead to data that should be handled with care. The fact that it can be difficult or impossible to notice an error just from the reported results makes data visualisation particularly important.
 
-```bash
-# development
-$ npm run start
+## Contents
 
-# watch mode
-$ npm run start:dev
+This repository contains the following files:
 
-# production mode
-$ npm run start:prod
-```
+README.md: provides an overview of the project
 
-## Test
+basics_ggplot: R script containing code for data visualisation and analysis using the ggplot2 package.
 
-```bash
-# unit tests
-$ npm run test
+gapminder_dataset: R script containing code for data visualisation and analysis using the gapminder package to apply the ggplot2 techniques, understanding how fixed scales across plots can ease comparisons and to be able to modify graphs to improve data visualization.
 
-# e2e tests
-$ npm run test:e2e
+principles_of_visualisation.R: R script containing code for data visualisation and analysis to understand basic principles of effective data visualization. Understand the importance of keeping your goal in mind when deciding on a visualization approach. Understand principles for encoding data, including position, aligned lengths, angles, area, brightness, and color hue. Know when to include the number zero in visualizations and be able to use techniques to ease comparisons, such as using common axes, putting visual cues to be compared adjacent to one another, and using color effectively
 
-# test coverage
-$ npm run test:cov
-```
+Distributions.R: using distributions to summarize data, the average and the standard deviation to understand the normal distribution, assess how well a normal distribution fits the data using a quantile-quantile plot and interpreting data from a boxplot.
 
-## Support
+vaccine_case_study.R: visualise data about measles incidence in order to demonstrate the impact of vaccination programs on disease rate using the dslabs library and 'us_contagious_diseases' data.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## Conclusion
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+This project demonstrates the power of data visualisation in communicating data-driven findings, motivating analyses, and detecting flaws. It also highlights the importance of handling data with care, and how data visualisation can help in detecting errors and biases.
