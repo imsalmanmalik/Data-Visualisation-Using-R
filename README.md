@@ -1,4 +1,4 @@
-# Data Visualisation Project on R
+# Data Visualisation Using R
 
 This repository contains a data visualisation project on R that explores three motivating examples using ggplot2, a popular data visualisation package for the statistical programming language R.
 
