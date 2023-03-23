@@ -6,7 +6,7 @@ This repository contains a data visualisation project on R that explores three m
 
 With the growing availability of informative datasets and software tools, data visualisation has become increasingly important across many industries, academia, and government. Data visualisation provides a powerful way to communicate data-driven findings, motivate analyses, or detect flaws.
 
-During this certification, the basics of data visualisation and exploratory data analysis were learned, and this project serves as an example of the application of these skills.
+the basics of data visualisation and exploratory data analysis were learned, and this project serves as an example of the application of these skills.
 
 ## Data and Tools
 
